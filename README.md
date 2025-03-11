@@ -113,7 +113,3 @@ npm test
 ```
 npx playwright test --ui
 ```
-
-## 🔥 Final Notes
-
-- Ensure `.env` is not committed to Git by adding it to `.gitignore`.
