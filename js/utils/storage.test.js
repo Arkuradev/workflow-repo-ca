@@ -1,5 +1,5 @@
 import { getUsername } from "./storage.js";
-import { describe, expect, beforeEach, afterEach, test } from "vitest";
+import { describe, expect, beforeEach, test } from "vitest";
 
 const userKey = "user";
 
@@ -9,9 +9,6 @@ function setUserInStorage(user) {
 
 describe("getUsername", () => {
   beforeEach(() => {
-    localStorage.clear();
-  });
-  afterEach(() => {
     localStorage.clear();
   });
 

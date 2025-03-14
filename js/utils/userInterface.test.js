@@ -16,7 +16,7 @@ describe("isActivePath", () => {
   });
 
   test("returns false when paths don't match", () => {
-    expect(isActivePath("/contact", "/login")).toBe(false);
-    expect(isActivePath("/about", "/register")).toBe(false);
+    expect(isActivePath("/venue", "/login")).toBe(false);
+    expect(isActivePath("/login", "/register")).toBe(false);
   });
 });
