@@ -60,7 +60,7 @@ Vitest is used to test individual functions.
 **Run all unit tests:**
 
 ```
-npm run test:unit:
+npm run test:unit
 ```
 
 **Test Cases Implemented:**
@@ -83,7 +83,7 @@ Playwright tests ensure critical workflows function correctly.
 **Run all E2E tests:**
 
 ```
-npm run test:e2e:
+npm run test:e2e
 ```
 
 ### **Test Cases Implemented:**
