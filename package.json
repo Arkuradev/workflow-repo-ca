@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "test": "npm run test:unit && npm run test:e2e",
+    "test:unit": "vitest",
+    "test:e2e": "npx playwright test",
+    "prepare": "husky install"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
